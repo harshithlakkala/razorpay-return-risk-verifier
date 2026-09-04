@@ -1,0 +1,20 @@
+# Secrets - never commit these
+.env
+*.env
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Derived data - regenerate with: python merge_all_data.py
+merged_data.csv
+
+# Generated reports - regenerate with: python generate_full_audit_report.py
+full_audit_report.csv
+full_audit_report.json
+threshold_sweep_results.csv
+recommended_threshold.txt
+calibration_curves.json
